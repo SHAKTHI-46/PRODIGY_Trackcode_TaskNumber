@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  background-color: #555;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+  background-color: #008cba;
+  color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      padding: 40px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 1.1em;
+      border-radius: 5px;
+      margin: 10px;
+      border: none;
+    }
+    button {
+      background-color: #ffcc00;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e6b800;
+    }
+    #result {
+      margin-top: 30px;
+      font-size: 1.2em;
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌦️ Weather App</h1>
+  <input type="text" id="city" placeholder="Enter city name" />
+  <button onclick="getWeather()">Get Weather</button>
+  <button onclick="getLocation()">📍 Use GPS</button>
+  <button onclick="startVoice()">🎤 Speak</button>
+  <div id="result">Weather info will appear here.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
